@@ -1,12 +1,12 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
-
 }
 
 body {
     font-family: 'Gabarito', sans-serif;
 }
+
 .navbar {
     padding: 10px;
     display: flex;
@@ -19,7 +19,6 @@ body {
     background-color: white;
     z-index: 1;
     cursor: pointer;
-
 }
 
 .navbar__s1__title {
@@ -34,7 +33,6 @@ body {
     display: flex;
     gap: 10px;
     background-color: transparent;
-    /* align-items: center; */
 }
 
 .navbar__s2 input {
@@ -50,20 +48,20 @@ body {
 .navbar__s3 {
     display: flex;
     gap: 10px;
-    /* text-align: center; */
 }
 
 /* My Learning popup */
 
-.mylearning{
+.mylearning {
     position: relative;
     cursor: pointer;
 }
-.mylearning:hover .mylearning__popup{
-    display: block;
 
+.mylearning:hover .mylearning__popup {
+    display: block;
 }
-.mylearning__popup{
+
+.mylearning__popup {
     position: absolute;
     background-color: white;
     border: 1px black solid;
@@ -71,10 +69,10 @@ body {
     top: 30px;
     padding: 20px;
     right: 0;
-    display:none;
+    display: none;
 }
 
-/* Categories  */
+/* Categories */
 
 .categories {
     display: flex;
@@ -89,61 +87,57 @@ body {
     color: white;
     padding: 10px;
     border-radius: 30px;
-    box-shadow: 2px 4px 6px black; 
+    box-shadow: 2px 4px 6px black;
     border: #A435F0 solid 1px;
-
-
 }
-.categories > p:hover{
+
+.categories > p:hover {
     transition: 1s;
     background-color: transparent;
-    color:  black;
+    color: black;
     border: 1px solid black;
 }
-/* sles-item */
 
-.sales-item{
+/* sales-item */
+
+.sales-item {
     position: relative;
 }
+
 .sales-item img {
     width: 100%;
 }
 
-.sales-image__offer{
+.sales-image__offer {
     position: absolute;
     width: 35%;
     border: 2px black solid;
-    background-color:white;
     top: 10%;
     margin: 20px;
     padding: 30px;
     background-color: beige;
-    animation-name:Zoom;
+    animation-name: Zoom;
     animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
-
 }
 
-@keyframes Zoom{
-    0%{
+@keyframes Zoom {
+    0% {
         transform: scale(0);
         opacity: 0;
     }
 
-    100%{
+    100% {
         transform: scale(1);
         opacity: 1;
     }
 }
 
-
-
-/* recommended  */
+/* recommended */
 
 .recommended {
     padding: 10px;
-
 }
 
 .recommended_container {
@@ -151,7 +145,6 @@ body {
     justify-content: space-between;
     margin: 20px;
     flex-wrap: wrap;
-
 }
 
 .course-card {
@@ -165,11 +158,11 @@ body {
     cursor: pointer;
 }
 
-.course-card h4{
+.course-card h4 {
     padding-top: 15px;
 }
 
-/* TOPICS  */
+/* TOPICS */
 
 .topics {
     padding: 10px;
@@ -180,7 +173,6 @@ body {
     gap: 10px;
     margin-top: 10px;
     flex-wrap: wrap;
-
 }
 
 .topics__container p {
@@ -191,10 +183,10 @@ body {
     text-transform: uppercase;
 }
 
-/* popular section  */
+/* popular section */
 
 .popular {
-    padding: 10px;   
+    padding: 10px;
 }
 
 .popular__container {
@@ -204,25 +196,26 @@ body {
     flex-wrap: wrap;
 }
 
-/* Footer  */
+/* Footer */
 
-.footer{
+.footer {
     padding: 30px;
     background-color: black;
     color: white;
 }
 
-.footer__one{
+.footer__one {
     display: flex;
     gap: 10px;
     cursor: pointer;
 }
-.footer__one  p{
+
+.footer__one p {
     margin: 20px;
     justify-content: space-evenly;
 }
 
-.footer__two{
+.footer__two {
     margin: 20px;
     align-items: center;
     display: flex;
@@ -230,12 +223,10 @@ body {
     cursor: pointer;
 }
 
-/*  Footer */
-
-.footer > .footer__one :hover{
+.footer > .footer__one :hover {
     color: #A435F0;
 }
 
-.footer > .footer__two:hover{
+.footer > .footer__two:hover {
     color: #A435F0;
 }
