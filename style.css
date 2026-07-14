@@ -89,9 +89,17 @@ body {
     color: white;
     padding: 10px;
     border-radius: 30px;
-    box-shadow: 2px 4px 6px black;  
-}
+    box-shadow: 2px 4px 6px black; 
+    border: #A435F0 solid 1px;
 
+
+}
+.categories > p:hover{
+    transition: 1s;
+    background-color: transparent;
+    color:  black;
+    border: 1px solid black;
+}
 /* sles-item */
 
 .sales-item{
@@ -110,8 +118,26 @@ body {
     margin: 20px;
     padding: 30px;
     background-color: beige;
+    animation-name:Zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
 
 }
+
+@keyframes Zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
 
 /* recommended  */
 
